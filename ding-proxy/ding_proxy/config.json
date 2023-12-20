@@ -1,0 +1,16 @@
+
+{
+    "webhook": "https://oapi.dingtalk.com/robot/send?access_token=xxxx",
+
+    "appliction": {
+        "agent_id": "281xxxx",
+        "app_key": "dingxxxx",
+        "app_secret": "98RlNWxxxx"
+    },
+
+    "users_id": {
+        "1": "manager1108",
+        "2": "manager1108|093214544536141418"
+    }
+}
+
