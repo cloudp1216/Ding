@@ -37,7 +37,7 @@ cd /usr/local/Ding/ding-proxy && uwsgi uwsgi.ini
 http://x.x.x.x:8008/
 POST:
 {
-    "users_id":    // 用户id，在配置文件/usr/local/Ding/ding-proxy/config.conf中定义，多用户使用"|"分割
+    "users_id":    // 用户id，在配置文件/usr/local/Ding/ding-proxy/config.json中定义，多用户使用"|"分割
     "messages":    // 推送给用户的报警消息
 }
 ```
@@ -45,7 +45,7 @@ POST:
 http://x.x.x.x:8008/robot
 POST:
 {
-    "messages":    // 推送给机器人的报警消息，可以在群设置里添加机器人，在config.json设置webhook
+    "messages":    // 推送给钉钉机器人的报警消息，可以在群设置里添加机器人，在config.json设置webhook
 }
 ```
 
