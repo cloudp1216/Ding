@@ -24,7 +24,7 @@ cd /usr/local/Ding/ding-proxy
 pip3 install -r requirements.txt
 ```
 
-##### 3、添加钉钉后台应用，修改配置文件：/usr/local/Ding/ding-proxy/config.json
+##### 3、添加钉钉后台应用（在"应用能力"中添加"机器人"，然后在钉钉客户端新建工作群，在"群设置"中添加机器人，复制webhook），修改配置文件：/usr/local/Ding/ding-proxy/config.json
 
 ##### 4、启动服务：
 ```shell           
