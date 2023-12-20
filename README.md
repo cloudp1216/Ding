@@ -46,15 +46,26 @@ POST:
 ```
 
 
-#### 四、客户端
-##### 1、ding：
+#### 四、客户端使用
+##### 1、调整代理接口：
 ```shell
+vi /usr/local/Ding/ding/config.py
+
+# ding proxy 代理接口
+DingProxy = "http://127.0.0.1:8008"
+
+```
+
+##### 2、ding：
+```shell
+ln -sv /usr/local/Ding/ding/ding.py /usr/bin/ding
 ding <用户id> <第一行消息> <第二行消息> ...
 ```
 
-
-##### 2、ding-robot
+##### 3、ding-robot
 ```shell
+ln -sv /usr/local/Ding/ding/ding-robot.py /usr/bin/ding-robot
 ding-robot <第一行消息> <第二行消息> ...
 ```
+
 
