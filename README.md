@@ -37,7 +37,7 @@ cd /usr/local/Ding/ding-proxy && uwsgi uwsgi.ini
 http://x.x.x.x:8008/
 POST:
 {
-    "users_id":    // 用户id，在配置文件/usr/local/Ding/ding-proxy/config.json中定义，多用户使用"|"分割
+    "users_id":    // 用户id，对应一组用户，在配置文件/usr/local/Ding/ding-proxy/config.json中定义，使用"|"分割
     "messages":    // 推送给用户的报警消息
 }
 ```
