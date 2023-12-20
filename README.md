@@ -12,15 +12,19 @@
 
 #### 二、ding-proxy应用部署
 
-##### 1、需要安装python3及依赖环境：flask、flask-restful、uwsgi、requests
-       
-##### 2、部署ding-proxy
+##### 1、部署ding-proxy
 ```shell
 cd /usr/local
 git clone https://github.com/cloudp1216/Ding.git
 ```
  
-##### 3、根据钉钉后台及应用，修改配置文件：/usr/local/Ding/ding-proxy/config.conf
+##### 2、安装python3及依赖环境：flask、flask-restful、uwsgi、requests
+```shell
+cd /usr/local/Ding/ding-proxy
+pip3 install -r requirements.txt
+```
+
+##### 3、添加钉钉后台应用，修改配置文件：/usr/local/Ding/ding-proxy/config.conf
 
 ##### 4、启动服务：
 ```shell           
