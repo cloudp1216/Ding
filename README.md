@@ -24,7 +24,7 @@ cd /usr/local/Ding/ding-proxy
 pip3 install -r requirements.txt
 ```
 
-##### 3、添加钉钉后台应用，修改配置文件：/usr/local/Ding/ding-proxy/config.conf
+##### 3、添加钉钉后台应用，修改配置文件：/usr/local/Ding/ding-proxy/config.json
 
 ##### 4、启动服务：
 ```shell           
